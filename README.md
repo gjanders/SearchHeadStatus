@@ -20,6 +20,9 @@ As of Splunk 9.1.x, a new endpoint exists:
 You can use this via:
 ```curl -k https://localhost:8089/services/shcluster/member/ready```
 
+or on the web port via:
+```curl -k http://localhost:8000/en-GB/splunkd/__raw/services/searchheadstatus```
+
 This is not documented as of the 2024-04-16 but may be documented in the future, it returns an XML response such as:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
