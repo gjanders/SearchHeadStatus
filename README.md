@@ -57,8 +57,11 @@ This application was developed because such an endpoint didn't exist prior to 9.
 If you see an error such as:
 `Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1106)')))`
 
+or you see the response of:
+`SSL_Verify_Error`
+
 This simply means that the port 8089 is running an SSL certificate that is not trusted by the default certificate store in use by Splunk's python
-You can change `verify=True` to `verify=False` in the config files this will bypass SSL validation of your local Splunk instance on port 8089 (note that this comes with a minor security risk)
+You can change `verify=True` to `verify=False` in the bin/search_head_status.py file and this will bypass SSL validation of your local Splunk instance on port 8089 (note that this comes with a minor security risk)
 
 ## Feedback?
 Feel free to open an issue on github or use the contact author on the SplunkBase link and I will try to get back to you when possible, thanks!
