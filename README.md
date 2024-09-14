@@ -74,6 +74,9 @@ Thanks to Harshil Marvania (harsmarvania57) for bringing the new endpoint to my 
 Icons by Bing CoPilot
 
 ## Release Notes
+### 0.0.2
+Updated splunk python SDK from 2.0.1 to 2.0.2 as per Splunk cloud compatability requirements
+
 ### 0.0.1
 Initial version
 
