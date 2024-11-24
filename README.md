@@ -75,7 +75,7 @@ Icons by Bing CoPilot
 
 ## Release Notes
 ### 0.0.3
-Updated Splunk python SDK from 2.0.2 to 2.1.0 as per Splunk cloud compatability requirements
+Updated Splunk python SDK from 2.0.2 to 2.1.0 as per Splunk cloud compatibility requirements
 
 ### 0.0.2
 Updated splunk python SDK from 2.0.1 to 2.0.2 as per Splunk cloud compatability requirements
